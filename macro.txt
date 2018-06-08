@@ -1,4 +1,5 @@
-'#NOTES
+'##############################################################################
+'NOTES
 
 '#Much of this code is adapted from www.rondebruin.nl
 '#This macro will create a csv based on a sheet of your choice and email (using outlook)...
@@ -6,7 +7,7 @@
 '#indicate the email has been sent.
 
 
-'#PARAMETERS TO SET IN CODE BELOW
+'PARAMETERS TO SET IN CODE BELOW
 
 '#Sheet name to send as email:							sheetname
 '#Feedback in message box when data is sent:			Data Sent - You may close this workbook
@@ -14,12 +15,9 @@
 '#email subject:										enter your email subject here
 '#email body text:										enter body text of email here
 
+'##############################################################################'
 
-
-
-
-
-'#CODE
+'CODE
 
 Sub Mail_ActiveSheet()
 'Working in Excel 2000-2016
